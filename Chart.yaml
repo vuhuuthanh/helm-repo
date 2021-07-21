@@ -1,0 +1,10 @@
+---
+apiVersion: v2
+name: myapp
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+dependencies:
+- name: nginx
+  version: 1.21.1
+  repository: https://charts.bitnami.com/bitnami
